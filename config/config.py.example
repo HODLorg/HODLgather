@@ -1,0 +1,10 @@
+#! usr/bin/python3
+
+config = {
+    'months': 12,  # Month to simulate.
+    'init_amount_btc': 0.0,  # Initial amount of bitcoin for simulation.
+    'invested_amount_eur': 0.0, # Invested amount in EUR for initial amount of bitcoin.
+    'monthly_adding_eur': 100.0,  # Monthly EUR investment into BTC.
+    'start_price': 8000,  # Price of bitcoin in EUR / BTC at simulation start.
+    'daily_growth': 0.5  # Daily growth at average in percent.
+}
